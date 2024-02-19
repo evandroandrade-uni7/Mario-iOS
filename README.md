@@ -4,27 +4,28 @@ Bem-vindo ao projeto Meu App iOS! Este é um aplicativo de gerenciamento de tare
 
 ## Estrutura do Projeto
 
-MeuAppiOS
-|-- MeuApp
-|   |-- AppDelegate.swift
-|   |-- SceneDelegate.swift
-|   |-- ViewController.swift
-|   |-- Model
-|   |   |-- Task.swift
-|   |-- View
-|   |   |-- Main.storyboard
-|   |   |-- LaunchScreen.storyboard
-|   |-- Controller
-|   |   |-- TaskViewController.swift
-|   |-- Util
-|   |   |-- Outros arquivos de utilidade, se necessário
-|   |-- Resources
-|       |-- Images.xcassets
-|       |   |-- Aqui você pode colocar suas imagens e ícones do aplicativo
-|       |-- Style
-|           |-- Estilos CSS ou arquivos de estilo específicos, se aplicável
-|-- Tests
-    |-- Arquivos de teste, se necessário
+- MeuAppiOS
+  - MeuAppiOS
+    - AppDelegate.swift
+    - SceneDelegate.swift
+    - ViewController.swift
+    - Model
+      - Task.swift
+    - View
+      - Main.storyboard
+      - LaunchScreen.storyboard
+    - Controller
+      - TaskViewController.swift
+    - Util
+      - Outros arquivos de utilidade, se necessário
+    - Resources
+      - Images.xcassets
+        - Aqui você pode colocar suas imagens e ícones do aplicativo
+      - Style
+        - Estilos CSS ou arquivos de estilo específicos, se aplicável
+- Tests
+  - Arquivos de teste, se necessário
+
 
 
 Neste projeto, a estrutura segue o padrão comum de projetos iOS, com o diretório `MeuAppiOS` contendo os arquivos do projeto. As classes estão localizadas no diretório `Classes`, onde podemos encontrar a implementação da classe `Task` em Swift. As interfaces de usuário são definidas no arquivo de storyboard `Main.storyboard`. Os arquivos de configuração do aplicativo estão localizados no diretório `Supporting Files`.
